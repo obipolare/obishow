@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>About me</title>
   </head>
-  <body class="bg-gray-800 text-white">
+  <body class="text-white bg-gray-800">
     <main
-      class="flex justify-center items-center flex-col h-screen container mx-auto"
+      class="container flex flex-col items-center justify-center w-11/12 h-screen py-2 mx-auto mt-20 mb-20 sm:mb-auto sm:mt-auto sm:w-10/12 lg:w-8/12"
     >
       <figure>
         <img
@@ -17,63 +17,65 @@
           alt="Luck voltia"
         />
       </figure>
-      <ul class="grid grid-cols-1 w-11/12 md:w-9/12 lg:w-7/12 p-1">
-        <h1 class="text-center font-bold m-2">@obipolare</h1>
+      <h1 class="m-2 text-lg font-bold text-center">@obipolare</h1>
+      <ul
+        class="grid w-full grid-cols-4 grid-rows-5 sm:grid-rows-4 gap-x-2 gap-y-4 sm:gap-y-1"
+      >
         <li
-          class="mt-4 w-full text-center flex rounded transition duration-200 hover:bg-white hover:text-red-600 font-semibold"
+          class="flex items-center justify-center w-full col-span-4 font-semibold text-center transition duration-200 rounded sm:col-start-2 sm:col-end-5"
         >
           <a
-            class="border border-red-400 py-4 flex-grow"
+            class="flex-grow py-8 text-lg duration-200 transform border border-red-400 hover:bg-red-500"
             target="_blank"
             href="https://www.youtube.com/channel/UCjBWKPHYM_azisD60cO87xA"
             >Youtube</a
           >
         </li>
         <li
-          class="mt-4 w-ful text-center flex rounded transition duration-200 hover:bg-white hover:text-blue-600 font-semibold"
+          class="flex items-center justify-center w-full col-span-4 font-semibold text-center rounded sm:col-span-1 sm:row-start-1 sm:row-end-5"
         >
           <a
-            class="border border-blue-400 py-4 flex-grow"
+            class="flex-grow py-8 text-lg transition duration-200 border border-blue-400 sm:text-xl sm:py-52 hover:bg-twitter hover:text-white"
             target="_blank"
             href="https://twitter.com/obipolare"
             >Twitter</a
           >
         </li>
         <li
-          class="mt-4 w-full text-center flex rounded transition duration-200 hover:bg-white hover:text-pink-600 font-semibold"
+          class="flex items-center justify-center w-full col-span-4 font-semibold text-center rounded sm:col-span-2"
         >
           <a
-            class="border border-pink-400 py-4 flex-grow"
+            class="flex-grow py-8 text-lg transition duration-200 border border-pink-400 hover:bg-pink-500 hover:text-white"
             target="_blank"
             href="https://www.instagram.com/obipolare/"
             >Instagram</a
           >
         </li>
         <li
-          class="mt-4 w-full text-center flex rounded transition duration-200 hover:bg-white hover:text-purple-600 font-semibold"
+          class="flex items-center justify-center w-full col-span-4 font-semibold text-center rounded sm:col-span-2"
         >
           <a
-            class="border border-purple-400 py-4 flex-grow"
+            class="flex-grow py-8 text-lg transition duration-200 border border-purple-400 hover:bg-purple-600 hover:text-white"
             target="_blank"
             href="https://www.twitch.tv/obipolare"
             >Twitch</a
           >
         </li>
         <li
-          class="mt-4 w-full text-center flex rounded transition duration-200 hover:bg-white hover:text-gray-600 font-semibold"
+          class="flex items-center justify-center w-full col-span-4 font-semibold text-center rounded sm:col-start-2 sm:col-end-5"
         >
           <a
-            class="border border-gray-400 py-4 flex-grow"
+            class="flex-grow py-8 text-lg transition duration-200 border border-gray-400 hover:bg-gray-700 hover:text-white"
             target="_blank"
             href="https://github.com/obipolare"
             >Github</a
           >
         </li>
         <li
-          class="mt-4 w-full text-center flex rounded transition duration-200 hover:bg-white hover:text-blue-700 font-semibold"
+          class="flex items-center justify-center w-full col-span-4 font-semibold text-center rounded sm:col-start-4 sm:col-end-5 sm:row-start-2 sm:row-end-4"
         >
           <a
-            class="border border-blue-500 py-4 flex-grow"
+            class="flex-grow py-8 text-lg transition duration-200 border border-blue-500 sm:text-xl sm:py-24 hover:border-white hover:bg-telegram hover:text-white"
             target="_blank"
             href="https://t.me/Obipolare"
             >Telegram</a
@@ -81,5 +83,6 @@
         </li>
       </ul>
     </main>
+    <script src="./scripts.js"></script>
   </body>
 </html>

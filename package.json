@@ -8,9 +8,8 @@
     "postcss": "^8.2.4",
     "tailwindcss": "^2.0.2"
   },
-  "scripts":{
+  "scripts": {
     "build-css": "tailwindcss build ./src/styles.css -o ./public/styles.css",
-    "buid": "NODE_ENV=production npx tailwindcss-cli@latest build ./src/tailwind.css -o ./dist/tailwind.css"
-    
+    "buildprod": "NODE_ENV=production npx tailwindcss-cli@latest build ./src/styles.css -o styles.css"
   }
 }
